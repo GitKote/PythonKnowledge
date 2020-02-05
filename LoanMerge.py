@@ -1,8 +1,4 @@
-"""
-No need of i
-
-"""
-Existing_loan=(93654,349379)
+Existing_loan=(88657,309974)
 New_loan=int(input(" Enter HOW MUCH to take from ICICI\n"))
 
 final_settlement=0
@@ -23,7 +19,7 @@ else:
  Take_home_new_loan=New_loan-New_loan*(0.99/100)
 
 before_hdfc=(Take_home_new_loan)-(old_loan_final_settlement)
-after_hdfc=before_hdfc-381812
+after_hdfc=before_hdfc-322478
 
 print ("Old loan final is",old_loan_final_settlement)
 print ("Take_home is", before_hdfc)
